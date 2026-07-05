@@ -1,16 +1,30 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+A simple notes app built with Flutter and Cloud Firestore — create, view, edit, and delete notes, synced live to the cloud.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## What it does
 
-A few resources to get you started if this is your first Flutter project:
+- Add a note with a title and description
+- See all your notes in a live-updating list
+- Tap a note to edit it
+- Swipe to delete, with an undo option
+- Search your notes
+- Pick a color for each note
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter + Cloud Firestore, with a small service layer (`NoteService`) that handles all the database logic separately from the UI.
+
+
+## Structure
+
+```
+lib/
+├── main.dart
+├── models/note.dart
+├── services/note_service.dart
+├── screens/notes_list_screen.dart
+├── screens/add_edit_note_screen.dart
+└── utils/
+```
