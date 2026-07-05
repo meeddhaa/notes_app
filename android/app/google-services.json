@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890923806628",
+    "project_id": "notes-app-nafisa",
+    "storage_bucket": "notes-app-nafisa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890923806628:android:a06f72730bfb7e06b91b31",
+        "android_client_info": {
+          "package_name": "com.example.notes_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9XzTjyvyybqNareyOOx3MK2ghKDYfktI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
